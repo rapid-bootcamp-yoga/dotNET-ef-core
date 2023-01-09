@@ -14,7 +14,7 @@ namespace dotNET_EF_Core.DataContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost:3306;database=ef_db;uid=root;pwd=1234;");
+            optionsBuilder.UseMySQL("server=localhost;database=ef_db;uid=root;pwd=1234;");
         }
     }
 }
